@@ -1,11 +1,10 @@
 public class FirstProgram {
     public static void main(String[] args) {
-        int i = 0, j;
-        
-        i = i++;
-        System.out.println("i = " + i);
-        
-        j = i++ + i;
-        System.out.println("i = " + i + ", j = " + j);
+        int x = 16;
+        double y = Math.sqrt(x);
+        System.out.println("Square root of " + x + " is " + y);
+    
+        double z = Math.sin(Math.PI / 2);
+        System.out.println("Sine of pi/2 is " + z);
       }
 }
