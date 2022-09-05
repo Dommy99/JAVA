@@ -5,7 +5,7 @@ public class test {
     setItemCode(newItemCode);
     setTitle(newTitle);
   }
-  public BookMultiConstructor(String newTitle) {
+  public Book(String newTitle) {
     setItemCode(0);
     setTitle(newTitle);
   }
@@ -22,7 +22,7 @@ public class test {
     title = newTitle;
   }
   public void display() {
-    System.out.println(itemCode + " " + title);
+    System.out.println(itemCode + " add" + title);
   }
     
 }
