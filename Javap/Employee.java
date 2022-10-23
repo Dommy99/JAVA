@@ -97,6 +97,9 @@ public void setLastName(String ln) {
 
 public int getDept() { return dept; }
 
+public void setDept(int dp) {
+  dept = dp;
+}
 
 
 public double getPayRate() { return payRate; }
