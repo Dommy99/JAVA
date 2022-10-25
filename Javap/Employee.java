@@ -112,7 +112,7 @@ public String getFullName() {
   return firstName + " " + lastName;
 }
 
-// public String getPayInfo() {
-//   return "Employee " + id + " dept " + dept + " " +
-//          getFullName() + " paid " + payRate;
-// }
+public String getPayInfo() {
+  return "Employee " + id + " dept " + dept + " " +
+         getFullName() + " paid " + payRate;
+}
