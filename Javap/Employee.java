@@ -102,17 +102,17 @@ public void setDept(int dp) {
 }
 
 
-// public double getPayRate() { return payRate; }
+public double getPayRate() { return payRate; }
 
-// public void setPayRate(double pay) {
-//   payRate = pay;
-// }
+public void setPayRate(double pay) {
+  payRate = pay;
+}
 
-// public String getFullName() {
-//   return firstName + " " + lastName;
-// }
+public String getFullName() {
+  return firstName + " " + lastName;
+}
 
-// public String getPayInfo() {
-//   return "Employee " + id + " dept " + dept + " " +
-//          getFullName() + " paid " + payRate;
-// }
+public String getPayInfo() {
+  return "Employee " + id + " dept " + dept + " " +
+         getFullName() + " paid " + payRate;
+}
