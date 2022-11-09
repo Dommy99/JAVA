@@ -9,7 +9,7 @@ public class Payroll {
     e1.setDept(2);
     System.out.println(e1.getPayInfo());
 
-    // Employee e2 = new Employee("dom", "akers", 15, 6500.0);
-    // System.out.println(e2.getPayInfo());
+    Employee e2 = new Employee("dom", "akers", 15, 6500.0);
+    System.out.println(e2.getPayInfo());
   }
 }
