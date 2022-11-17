@@ -2,7 +2,7 @@ package Javap;
 /**
   Represents an Employee
 */
-public class Employee {
+-
   private static int nextId = 1;
   private int id = nextId++;
   private String firstName;

@@ -1,15 +1,38 @@
 package Javap;
-public class Payroll {  
+public class Payroll {
   public static void main(String[] args) {
-
-    Employee e1 = new Employee();
-    e1.setFirstName("John");
-    e1.setLastName("Doe");
-    e1.setPayRate(6000.0);
-    e1.setDept(2);
-    System.out.println(e1.getPayInfo());
-
-    Employee e2 = new Employee("dom", "akers", 15, 6500.0);
-    System.out.println(e2.getPayInfo());
+    int i = 1;
+    
+    System.out.println("While loop:");
+    while (i <= 512) {
+      System.out.println("i is " + i);
+      i *= 2;
+    }
+    System.out.println("i is now " + i);
+    
+    System.out.println("Do while loop:");
+    do {
+      i = i - 300;
+      System.out.println("i is now " + i);
+    }
+    while (i > 0);
+    
+    System.out.println("For loop:");
+    for (i = 0; i < 12; i++)  {
+      System.out.print(" " + i);
+    }
+    System.out.println();
+    
+    System.out.println("For loop that declares a counter:");
+    for (int j = 0; j < 12; j++) {
+      System.out.print(" " + j);
+    }
+    System.out.println();
+    
+    System.out.println("For-each loop:");
+    String[] names = { "Jane", "John", "Bill" };
+    for (String oneName : names) {
+      System.out.println(oneName.toUpperCase());
+    }
   }
 }
